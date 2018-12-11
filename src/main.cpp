@@ -1,12 +1,7 @@
 #include "libs.h"
 #include "elevator.h"
 
-#define RPM 500
 
-#define SU1 -3200
-#define SU2 -7350
-#define GIU1 3200
-#define GIU2 7350
 
 /*
  * la lunghezza di tutto lo scanner è circa 8100 step a 500 RPM

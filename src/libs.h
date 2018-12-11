@@ -3,6 +3,13 @@
 
 #define STEP 100
 
+#define RPM 500
+
+#define SU1 -3200
+#define SU2 -7350
+#define GIU1 3200
+#define GIU2 7350
+
 Stepper mariottide(STEP, 8,9,10,11);
 
 #define P1 5
