@@ -1,14 +1,14 @@
 #include <Arduino.h>
 #include <Stepper.h>
 
-#define STEP 100
+#define STEP 200
 
-#define RPM 500
+#define RPM 125
 
-#define SU1 -3200
-#define SU2 -7350
-#define GIU1 3200
-#define GIU2 7350
+#define SU1 -4100
+#define SU2 -8200
+#define GIU1 4100
+#define GIU2 8200
 
 Stepper mariottide(STEP, 8,9,10,11);
 
