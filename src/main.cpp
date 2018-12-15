@@ -2,10 +2,9 @@
 #include "elevator.h"
 
 /*
- * la lunghezza di tutto lo scanner è circa 8100 step a 500 RPM
- * quindi un piano è di circa 3200 step a 500 RPM
- * per motivi a noi ignoti, lo step da due piani è di 7350 step a 500 RPM
- * facendo un totale di 10550 step? cazzi sua
+ * la lunghezza di tutto lo scanner è circa 8200 step a 125 RPM 200 STEP
+ * quindi un piano è di circa 4100 step a 125 RPM 200 STEP
+ * lo step da due piani è di 8200 step a 125 RPM 200 STEP
  */
 
 void setup() {
@@ -16,10 +15,11 @@ void setup() {
 
 void loop() {
   readPin();
-  //ascensore();
-  //ascens_finec();
+  ascensore();
+  /*
   mariottide.step(SU2);
   delay(2000);
   mariottide.step(GIU2);
   delay(2000);
+  */
 }
