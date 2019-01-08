@@ -1,7 +1,7 @@
 #include <Arduino.h>
 #include <Stepper.h>
 
-#define STEP 200
+//#define STEP 200
 
 #define RPM 125
 
@@ -13,7 +13,8 @@
 #define SAFESU   200
 #define SAFEGIU -200
 
-Stepper mariottide(STEP, 8,9,10,11);
+#define PDir 12
+#define PStep 13
 
 #define P1 5
 #define P2 6
